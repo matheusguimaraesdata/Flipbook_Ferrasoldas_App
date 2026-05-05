@@ -93,7 +93,7 @@ function CatalogApp() {
     <body>
       <div class="icon">📡</div>
       <h2>Sem conexão com a internet</h2>
-      <p>Conecte-se à internet para acessar o catálogo completo da Ferrasoldas.</p>
+      <p>Conecte-se à internet para acessar o guia completo da Ferrasoldas.</p>
       <div class="badge">⚡ Modo offline</div>
     </body>
     </html>
