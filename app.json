@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Ferrasoldas",
-    "slug": "ferrasoldas-catalogo",
+    "slug": "ferrasoldas-guia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/app.png",
@@ -15,7 +15,7 @@
         "foregroundImage": "./assets/app.png",
         "backgroundColor": "#FFCC00"
       },
-      "package": "com.ferrasoldas.catalogo",
+      "package": "com.ferrasoldas.guia",
       "softwareKeyboardLayoutMode": "pan"
     },
     "plugins": [

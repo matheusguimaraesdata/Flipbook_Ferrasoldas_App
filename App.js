@@ -13,7 +13,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-const CATALOG_URL = 'https://catalogomaquinasferrasoldas.vercel.app';
+const CATALOG_URL = 'https://guiademaquinasferrasoldas.vercel.app';
 
 function CatalogApp() {
   const insets = useSafeAreaInsets();
@@ -99,8 +99,7 @@ function CatalogApp() {
     </html>
   `;
 
-  // JS injetado no WebView para empurrar os controles do site
-  // para cima, evitando sobreposição com a barra do Android
+
   const injectedJS = `
     (function() {
       // Aguarda o flipbook carregar
@@ -133,7 +132,7 @@ function CatalogApp() {
             style={styles.logo}
             resizeMode="contain"
           />
-          <Text style={styles.tagline}>Catálogo de Máquinas 2026</Text>
+          <Text style={styles.tagline}>Guia de Máquinas 2026 | Ferrasoldas</Text>
           <ActivityIndicator
             size="small"
             color="#FFCC00"
@@ -162,7 +161,7 @@ function CatalogApp() {
                 resizeMode="contain"
               />
               <ActivityIndicator size="large" color="#FFCC00" />
-              <Text style={styles.loadingText}>Carregando catálogo...</Text>
+              <Text style={styles.loadingText}>Carregando guia...</Text>
             </View>
           )}
 
@@ -178,7 +177,6 @@ function CatalogApp() {
             scalesPageToFit={false}
             showsHorizontalScrollIndicator={false}
             showsVerticalScrollIndicator={false}
-            // Respeita a área segura — não fica embaixo da barra Android
             contentInset={{ bottom: insets.bottom }}
           />
         </Animated.View>
@@ -201,12 +199,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#1a1a1a',
   },
 
-  // ── Splash ──────────────────────────────────────
+
   splash: {
     ...StyleSheet.absoluteFillObject,
     backgroundColor: '#1a1a1a',
     alignItems: 'center',
-    justifyContent: 'flex-start', // alinha do topo para controlar posição do logo
+    justifyContent: 'flex-start',
     zIndex: 10,
   },
   logo: {
@@ -224,7 +222,7 @@ const styles = StyleSheet.create({
     marginTop: 32,
   },
 
-  // ── Conteúdo ────────────────────────────────────
+
   content: {
     flex: 1,
     position: 'relative',
@@ -234,7 +232,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#e9ecef',
   },
 
-  // ── Loading overlay ──────────────────────────────
+
   loadingOverlay: {
     ...StyleSheet.absoluteFillObject,
     backgroundColor: '#e9ecef',
@@ -253,7 +251,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
 
-  // ── Badge offline ────────────────────────────────
+
   offlineBadge: {
     position: 'absolute',
     right: 12,
