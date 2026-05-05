@@ -28,16 +28,23 @@ A Ferrasoldas divulgava seus produtos de marca própria exclusivamente por catá
 
 ## 🛠️ Tecnologias
 
-| Camada | Tecnologia |
+### 📱 Mobile
 
-|---|---|
+- React Native (Expo)
+- react-native-webview
+- react-native-safe-area-context
 
-| Framework mobile | React Native + Expo |
-| WebView | react-native-webview |
-| Safe area | react-native-safe-area-context |
-| Versionamento | Git + GitHub |
-| Deploy web | Vercel |
-| Web (flipbook) | HTML5, CSS3, JavaScript, StPageFlip |
+### 🌐 Web
+
+- HTML5
+- CSS3
+- JavaScript
+- StPageFlip
+
+### ⚙️ Infraestrutura & Ferramentas
+
+- Git + GitHub
+- Vercel
 
 ---
 
@@ -86,6 +93,7 @@ Escaneie o QR Code com o **Expo Go** no celular.
 <img src="./assets/logo_animado.jpeg" width="250"/>
 <img src="./assets/splash.jpeg" width="250"/>
 <img src="./assets/offline.jpeg" width="250"/>
+<img src="./assets/guia_online.jpeg" width="250"/>
 
 </div>
 
