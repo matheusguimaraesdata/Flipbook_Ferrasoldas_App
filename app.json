@@ -4,16 +4,15 @@
     "slug": "ferrasoldas-catalogo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png",
+    "icon": "./assets/app.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/logo.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#1a1a1a"
+      "resizeMode": "contain"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.png",
+        "foregroundImage": "./assets/app.png",
         "backgroundColor": "#FFCC00"
       },
       "package": "com.ferrasoldas.catalogo",
@@ -29,3 +28,4 @@
     }
   }
 }
+  
