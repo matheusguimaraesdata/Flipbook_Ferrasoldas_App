@@ -1,6 +1,6 @@
 # 📖 Ferrasoldas — Catálogo Virtual (App Mobile)
 
-Aplicativo mobile do catálogo interativo de máquinas de corte e solda da **Ferrasoldas Comércio e Representações Ltda.**, desenvolvido como projeto de extensão acadêmica no curso de Análise e Desenvolvimento de Sistemas.
+Aplicativo mobile do guia interativo de máquinas de corte e solda da **Ferrasoldas Comércio e Representações Ltda.**, desenvolvido como projeto de extensão acadêmica no curso de Análise e Desenvolvimento de Sistemas.
 
 🔗 **Web:** [guiademaquinasferrasoldas.vercel.app](https://guiademaquinasferrasoldas.vercel.app)  
 📦 **Repositório Web:** [ferrasoldas-flipbook](https://github.com/matheusguimaraesdata/Flipbook_Ferrasoldas_App)
@@ -19,7 +19,7 @@ A Ferrasoldas divulgava seus produtos de marca própria exclusivamente por catá
 ## 🚀 Funcionalidades
 
 - Splash screen animada com logo e fade-in suave
-- Carregamento do catálogo online via WebView
+- Carregamento do guia online via WebView
 - Detecção de conexão — exibe mensagem de fallback quando offline
 - Safe area respeitando a barra de navegação do Android
 - Orientação portrait com layout adaptado
@@ -31,6 +31,7 @@ A Ferrasoldas divulgava seus produtos de marca própria exclusivamente por catá
 | Camada | Tecnologia |
 
 |---|---|
+
 | Framework mobile | React Native + Expo |
 | WebView | react-native-webview |
 | Safe area | react-native-safe-area-context |
@@ -80,9 +81,13 @@ Escaneie o QR Code com o **Expo Go** no celular.
 
 ## 📸 Telas
 
-| ![Logo animado com fade-in](.assets/logo_animado.jpeg)
-| ![WebView carregando o flipbook](.assets/splash.jpeg)
-| ![Badge de aviso sem conexão](.assets/offline.jpeg)
+<div align="center">
+
+<img src="./assets/logo_animado.jpeg" width="250"/>
+<img src="./assets/splash.jpeg" width="250"/>
+<img src="./assets/offline.jpeg" width="250"/>
+
+</div>
 
 ---
 
